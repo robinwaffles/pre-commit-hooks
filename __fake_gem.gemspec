@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'reek', '4.8.1'
   s.add_dependency 'rubocop', '0.57.1'
   s.add_dependency 'rubocop-rspec', '1.26.0'
+  s.add_dependency 'cookstyle', '3.0.0'
   s.bindir = 'pre_commit_hooks'
   s.executables = [
     'run-fasterer',
